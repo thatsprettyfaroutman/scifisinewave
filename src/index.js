@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { createGlobalStyle } from 'styled-components'
-import Bars from 'components/Bars'
+import Balls from 'components/Balls'
 import Phone from 'components/Phone'
 
 const GlobalStyle = createGlobalStyle`
@@ -14,7 +14,7 @@ const GlobalStyle = createGlobalStyle`
 const App = () => (
   <>
     <GlobalStyle />
-    <Bars />
+    <Balls />
     <Phone />
   </>
 )
